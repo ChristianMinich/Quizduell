@@ -1,0 +1,2 @@
+C:\Users\Chris\source\repos\Quizduell\Quizduell\obj\Debug\quizduell.esproj.SuggestedBindingRedirects.cache
+C:\Users\Chris\source\repos\Quizduell\Quizduell\obj\Debug\quizduell.esproj.CoreCompileInputs.cache
