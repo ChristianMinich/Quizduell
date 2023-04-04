@@ -35,6 +35,12 @@ app.get('/api/questions', (req, res) => {
     res.send(questions);
 });
 
+app.get('/api/login', (req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World');
+});
+
 // POST route for submitting quiz answers
 app.post('/api/submit', (req, res) => {
     const answers = req.body.answers;
