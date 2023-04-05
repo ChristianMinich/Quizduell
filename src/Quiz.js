@@ -52,7 +52,7 @@ class Quiz extends Component {
         const { questions } = this.state;
 
         return (
-            <div>
+            <div style="text-align: center">
                 <h1>Quiz</h1>
                 <form onSubmit={this.handleSubmit}>
                     {Object.values(questions).map(question => (
@@ -74,6 +74,7 @@ class Quiz extends Component {
                         </div>
                     ))}
                     <button type="submit">Submit</button>
+                    <button href="./login.html"></button>
                 </form>
             </div>
         );
